@@ -1,0 +1,27 @@
+<html>
+
+<head>
+	<title>title</title>
+</head>
+
+<body>
+	<script>
+		class VariableScope {
+			constructor(tempName) {
+				this.name = tempName;
+			}
+
+			printName(lastName) {
+				for ( i = 0; i < 2; i++) { 
+				document.write(this.name + " " + lastName);
+			}
+		}
+
+		}
+		variableScope = new VariableScope("Vipin");
+		variableScope.printName("Gupta");
+
+	</script>
+</body>
+
+</html>
